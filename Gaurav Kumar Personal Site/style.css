@@ -1,0 +1,177 @@
+/* Tag selectors */
+
+body {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: "Merienda", cursive;
+  margin: 0px auto 10px;
+  color: #66bfbf;
+}
+h2 {
+  font-weight: normal;
+  line-height: 2;
+  color: #11999e;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #949595 6px;
+  width: 2.5rem;
+  margin: 100px auto;
+  border-bottom: none;
+}
+
+.top-container h2 {
+  margin: 100px auto 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+span {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #66bfbf;
+  position: relative;
+  margin: 50px 0 0 0;
+  padding: 50px 0 20px 0;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+footer p {
+  margin: 50px 0 0 0;
+  padding: 0;
+  color: #eaf6f6;
+}
+
+/* Class seletors */
+
+.footer-link{
+  margin: 30px 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #d4fafc;
+  padding-top: 3rem;
+  position: relative;
+  color: #146c94;
+  margin-bottom: 20px;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik', sans-serif; */
+
+.top-cloud {
+  position: absolute;
+  top: 90px;
+  right: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profilepic {
+  width: 250px;
+  border-radius: 100%;
+}
+
+.pacman {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin: 0 30px 0 0;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto 80px;
+  text-align: left;
+  line-height: 2;
+}
+
+.dialer {
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me h2 {
+  margin-bottom: 0;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.iitp-logo {
+  width: 280px;
+  position: absolute;
+  left: 20px;
+  margin: 0;
+}
+
+.middle-container {
+  margin: 80px 0;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}
